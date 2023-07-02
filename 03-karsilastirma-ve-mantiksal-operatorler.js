@@ -62,3 +62,5 @@ if(userName&&age>=18){
 }else if(!(age>=18)){
     console.log("Yaşınız 18'den küçük ya da belirtilmemiştir")
 }
+
+
