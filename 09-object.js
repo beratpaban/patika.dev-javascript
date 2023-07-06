@@ -15,3 +15,28 @@ console.log("item2",typeof(item2))
 
 let item3={}
 let item4=new Object()
+
+// Object Key - Value
+
+let laptop1={
+    brand:"Apple",
+    model:"MacBook Pro",
+    "2kg": 2
+}
+
+console.log(laptop1)
+console.log(laptop1.brand)
+console.log(laptop1.model)
+
+var person = {
+	name: 'Rumeysa',
+	surname: 'Turgut',
+	age: 23,
+	city: 'Istanbul',
+	introduce: function () {
+		console.log(`My name is ${this.name} ${this.surname}, I'm ${this.age} yo.`);
+	},
+};
+
+console.log(person.introduce())
+
